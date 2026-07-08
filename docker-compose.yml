@@ -1,0 +1,6 @@
+services:
+  adapter.restful:
+    image: ${DOCKER_REGISTRY-}adapterrestful
+    build:
+      context: .
+      dockerfile: api/src/adapters/Adapter.Restful/Dockerfile

@@ -1,0 +1,109 @@
+<Solution>
+  <Folder Name="/api/" />
+  <Folder Name="/api/src/" />
+  <Folder Name="/api/src/adapters/">
+    <Project Path="api/src/adapters/Adapter.AppHost/Adapter.AppHost.csproj" />
+    <Project Path="api/src/adapters/Adapter.Restful/Adapter.Restful.csproj" />
+    <Project Path="api/src/adapters/Adapter.Scheduler/Adapter.Scheduler.csproj" />
+  </Folder>
+  <Folder Name="/api/src/applications/">
+    <Project Path="api/src/applications/App.Processor/App.Processor.csproj" />
+    <Project Path="api/src/applications/App.UseCases/App.UseCases.csproj" />
+  </Folder>
+  <Folder Name="/api/src/core/">
+    <Project Path="api/src/core/Core.Domain/Core.Domain.csproj" />
+    <Project Path="api/src/core/Core.Library/Core.Library.csproj" />
+    <Project Path="api/src/core/Core.Services/Core.Services.csproj" Id="4f2aabe8-ca52-4851-a82e-d3ae94b10244" />
+  </Folder>
+  <Folder Name="/api/src/infrastructures/">
+    <Project Path="api/src/infrastructures/Infra.Persistence/Infra.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/api/test/" />
+  <Folder Name="/claude/">
+    <File Path="CLAUDE.md" />
+  </Folder>
+  <Folder Name="/claude/agents/">
+    <File Path=".claude/agents/bugfixer.md" />
+    <File Path=".claude/agents/coder.md" />
+    <File Path=".claude/agents/deployer.md" />
+    <File Path=".claude/agents/planner.md" />
+    <File Path=".claude/agents/reviewer.md" />
+    <File Path=".claude/agents/tester.md" />
+  </Folder>
+  <Folder Name="/docs/" />
+  <Folder Name="/docs/api/" />
+  <Folder Name="/docs/api/guidelines/">
+    <File Path="docs/api/guidelines/architecture.md" />
+    <File Path="docs/api/guidelines/coding-standards.md" />
+    <File Path="docs/api/guidelines/domain-driven-design.md" />
+    <File Path="docs/api/guidelines/event-driven-design.md" />
+    <File Path="docs/api/guidelines/hard-rules.md" />
+    <File Path="docs/api/guidelines/philosophy.md" />
+    <File Path="docs/api/guidelines/security.md" />
+    <File Path="docs/api/guidelines/tech-stack.md" />
+  </Folder>
+  <Folder Name="/docs/api/guidelines/layers/" />
+  <Folder Name="/docs/api/guidelines/layers/adapters/">
+    <File Path="docs/api/guidelines/layers/adapters/app-host.md" />
+    <File Path="docs/api/guidelines/layers/adapters/rest-api.md" />
+    <File Path="docs/api/guidelines/layers/adapters/scheduler.md" />
+    <File Path="docs/api/guidelines/layers/adapters/structure.md" />
+  </Folder>
+  <Folder Name="/docs/api/guidelines/layers/applications/">
+    <File Path="docs/api/guidelines/layers/applications/processor.md" />
+    <File Path="docs/api/guidelines/layers/applications/structure.md" />
+    <File Path="docs/api/guidelines/layers/applications/use-case.md" />
+  </Folder>
+  <Folder Name="/docs/api/guidelines/layers/core/">
+    <File Path="docs/api/guidelines/layers/core/domain.md" />
+    <File Path="docs/api/guidelines/layers/core/library.md" />
+    <File Path="docs/api/guidelines/layers/core/service.md" />
+    <File Path="docs/api/guidelines/layers/core/structure.md" />
+  </Folder>
+  <Folder Name="/docs/api/guidelines/layers/infrastructure/">
+    <File Path="docs/api/guidelines/layers/infrastructures/persistence.md" />
+    <File Path="docs/api/guidelines/layers/infrastructures/structure.md" />
+  </Folder>
+  <Folder Name="/docs/api/guidelines/layers/testing/">
+    <File Path="docs/api/guidelines/layers/testing/domain-test.md" />
+    <File Path="docs/api/guidelines/layers/testing/service-test.md" />
+  </Folder>
+  <Folder Name="/docs/api/requirements/" />
+  <Folder Name="/docs/api/requirements/business-requirements/" />
+  <Folder Name="/docs/api/requirements/technical-requirements/" />
+  <Folder Name="/docs/mobile/" />
+  <Folder Name="/docs/mobile/guidelines/">
+    <File Path="docs/mobile/guidelines/architecture.md" />
+    <File Path="docs/mobile/guidelines/coding-standards.md" />
+    <File Path="docs/mobile/guidelines/hard-rules.md" />
+    <File Path="docs/mobile/guidelines/philosophy.md" />
+    <File Path="docs/mobile/guidelines/security.md" />
+    <File Path="docs/mobile/guidelines/structure.md" />
+    <File Path="docs/mobile/guidelines/tech-stack.md" />
+    <File Path="docs/mobile/guidelines/testing.md" />
+  </Folder>
+  <Folder Name="/docs/mobile/requirements/" />
+  <Folder Name="/docs/mobile/requirements/business-requirements/" />
+  <Folder Name="/docs/mobile/requirements/technical-requirements/" />
+  <Folder Name="/docs/web/" />
+  <Folder Name="/docs/web/guidelines/">
+    <File Path="docs/web/guidelines/architecture.md" />
+    <File Path="docs/web/guidelines/coding-standards.md" />
+    <File Path="docs/web/guidelines/hard-rules.md" />
+    <File Path="docs/web/guidelines/philosophy.md" />
+    <File Path="docs/web/guidelines/security.md" />
+    <File Path="docs/web/guidelines/structure.md" />
+    <File Path="docs/web/guidelines/tech-stack.md" />
+    <File Path="docs/web/guidelines/testing.md" />
+  </Folder>
+  <Folder Name="/docs/web/requirements/" />
+  <Folder Name="/docs/web/requirements/business-requirements/" />
+  <Folder Name="/docs/web/requirements/technical-requirements/" />
+  <Folder Name="/items/" />
+  <Folder Name="/mobile/" />
+  <Folder Name="/pipelines/" />
+  <Folder Name="/web/" />
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>
