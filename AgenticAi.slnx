@@ -99,7 +99,11 @@
   <Folder Name="/docs/web/requirements/" />
   <Folder Name="/docs/web/requirements/business-requirements/" />
   <Folder Name="/docs/web/requirements/technical-requirements/" />
-  <Folder Name="/items/" />
+  <Folder Name="/items/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="LICENSE.txt" />
+  </Folder>
   <Folder Name="/mobile/" />
   <Folder Name="/pipelines/" />
   <Folder Name="/web/" />
